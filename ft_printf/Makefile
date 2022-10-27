@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-CC 			= gcc
+CC 			= cc
 CFLAGS		= -Wall -Wextra -Werror
 SRCS		= ft_printf.c ft_utils1.c ft_utils2.c
 OBJS		= $(SRCS:.c=.o)
